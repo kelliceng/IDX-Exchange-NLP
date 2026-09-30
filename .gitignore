@@ -1,10 +1,8 @@
-# Company data stays local (never push MLS data to GitHub)
 sql-files/
 data/raw/*
 data/models/*
 data/processed/*
 
-# Keep folder structure and the hand-built deliverables
 !data/*/.gitkeep
 !data/processed/taxonomy.json
 !data/processed/sample_queries.csv
