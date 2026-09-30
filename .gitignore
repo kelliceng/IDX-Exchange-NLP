@@ -1,9 +1,18 @@
+# Company data stays local (never push MLS data to GitHub)
+sql-files/
 data/raw/*
-data/processed/*
 data/models/*
+data/processed/*
+
+# Keep folder structure and the hand-built deliverables
 !data/*/.gitkeep
+!data/processed/taxonomy.json
+!data/processed/sample_queries.csv
+
+# Clutter
 *.bak
 .DS_Store
 __pycache__/
+.pytest_cache/
 .ipynb_checkpoints/
 .env

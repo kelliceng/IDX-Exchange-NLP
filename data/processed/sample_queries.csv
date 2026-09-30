@@ -1,0 +1,63 @@
+query_id,query,intent
+Q001,3 bedroom house with a pool in San Diego under $1.2M,search_listings
+Q002,condos near the beach in Santa Monica with ocean views,search_listings
+Q003,single-story homes in Irvine with no HOA,search_listings
+Q004,townhouse with an attached 2-car garage in San Jose,search_listings
+Q005,move-in ready homes in Pasadena with a large backyard,search_listings
+Q006,homes with an ADU or guest house in Los Angeles,search_listings
+Q007,fixer-upper under 700k in Sacramento,search_listings
+Q008,4 bed 3 bath with a home office near good schools in Fremont,search_listings
+Q009,pet-friendly condo with in-unit laundry in downtown LA,search_listings
+Q010,homes with solar panels and EV charging in Riverside,search_listings
+Q011,gated community with a pool and tennis courts in Palm Desert,search_listings
+Q012,mid-century modern home with mountain views in Palm Springs,search_listings
+Q013,duplex or triplex with rental income in Long Beach,search_listings
+Q014,new construction homes under 900k in Temecula,search_listings
+Q015,55+ community with a golf course in Murrieta,search_listings
+Q016,does this house have central air conditioning,property_details
+Q017,how many bedrooms does this listing have,property_details
+Q018,is the solar on this house owned or leased,property_details
+Q019,what year was this home built,property_details
+Q020,what is the square footage of this condo,property_details
+Q021,does the condo come with assigned parking,property_details
+Q022,is the backyard fenced,property_details
+Q023,has the kitchen been remodeled,property_details
+Q024,how long has this home been on the market,property_details
+Q025,what is this house worth,pricing_valuation
+Q026,is this listing overpriced compared to nearby homes,pricing_valuation
+Q027,how much have home prices in Irvine changed this year,pricing_valuation
+Q028,average price per square foot in Pasadena,pricing_valuation
+Q029,has the price on this listing been reduced,pricing_valuation
+Q030,what did homes on this street sell for recently,pricing_valuation
+Q031,what is the median condo price in San Diego,pricing_valuation
+Q032,estimate the value of a 3 bed 2 bath in Torrance,pricing_valuation
+Q033,compare these two condos in Irvine,compare_listings
+Q034,which is the better deal: the Pasadena house or the Glendale one,compare_listings
+Q035,show me the differences between these two listings,compare_listings
+Q036,compare HOA fees for these three townhomes,compare_listings
+Q037,which of my saved homes has the biggest lot,compare_listings
+Q038,side by side comparison of the 2 bedroom condos I saved,compare_listings
+Q039,which of these homes is closer to the beach,compare_listings
+Q040,what are the schools like near this house,neighborhood_info
+Q041,how is the commute from Irvine to downtown LA,neighborhood_info
+Q042,is this neighborhood walkable,neighborhood_info
+Q043,what restaurants and shopping are near this condo,neighborhood_info
+Q044,is this a quiet neighborhood,neighborhood_info
+Q045,how close is the nearest park,neighborhood_info
+Q046,is there public transit near this home,neighborhood_info
+Q047,what hospitals are close to this area,neighborhood_info
+Q048,schedule a tour of this home for Saturday,schedule_showing
+Q049,when is the next open house for this listing,schedule_showing
+Q050,can I see this condo tomorrow afternoon,schedule_showing
+Q051,book a virtual tour of this house,schedule_showing
+Q052,I want to schedule a private showing,schedule_showing
+Q053,are there any open houses in Irvine this weekend,schedule_showing
+Q054,cancel my showing on Friday,schedule_showing
+Q055,how much are the HOA dues for this condo,financing_costs
+Q056,estimate my monthly mortgage payment on an $850k home,financing_costs
+Q057,does this property have Mello-Roos,financing_costs
+Q058,what are the property taxes on this listing,financing_costs
+Q059,is the seller offering owner financing,financing_costs
+Q060,does this home qualify for an FHA loan,financing_costs
+Q061,is the loan on this house assumable,financing_costs
+Q062,how much of a down payment would I need for this house,financing_costs
