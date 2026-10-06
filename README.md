@@ -1,6 +1,6 @@
 # IDX Exchange NLP: Real Estate Listing Intelligence
 
-NLP tools for California MLS listing data. Week 1 builds the real estate taxonomy and sample datasets that later weeks use for entity extraction, query parsing, and search.
+NLP tools for California MLS listing data. Week 1 builds the real estate taxonomy and sample datasets, Week 2 cleans the text, and Week 3 extracts structured facts from it.
 
 ## Setup
 
@@ -26,6 +26,17 @@ pytest                               # validation tests
 
 Then open `notebooks/01_data_exploration.ipynb` for the analysis.
 
+## Week 2 and 3 workflow
+
+```bash
+python scripts/text_cleaning.py              # cleaned remarks -> data/processed/listing_sample_clean.csv
+python scripts/evaluate_entities.py dev      # entity extraction scores on the dev set
+python scripts/evaluate_entities.py test     # final scores on the held-out test set
+pytest                                       # all tests (Weeks 1-3)
+```
+
+Notebooks: `02_text_cleaning.ipynb` (profiling and before/after examples) and `03_entity_extraction.ipynb` (scores and error analysis).
+
 ## Deliverables
 
 | File | What it is |
@@ -35,6 +46,15 @@ Then open `notebooks/01_data_exploration.ipynb` for the analysis.
 | `data/processed/sample_queries.csv` | 62 user queries labeled with 7 intents |
 | `notebooks/01_data_exploration.ipynb` | Remark patterns, common phrases, and taxonomy coverage |
 | `tests/test_week1.py` | Checks taxonomy size, data quality, query labels, and 30%+ coverage |
+| `scripts/text_cleaning.py` | Week 2 `TextCleaner` with 9 cleaning steps, a 49-entry abbreviation dictionary, and column profiling |
+| `notebooks/02_text_cleaning.ipynb` | Profiling report and before/after examples |
+| `tests/test_week2.py` | 70+ cleaning test cases |
+| `scripts/entity_extractor.py` | Week 3 `EntityExtractor` for bedrooms, bathrooms, square feet, price, and amenities |
+| `data/processed/entity_labels.csv` | 250 hand-labeled remarks (100 dev, 150 test) with entity spans |
+| `docs/entity_labeling_guidelines.md` | Rules used for labeling |
+| `scripts/evaluate_entities.py` | Precision, recall, and F1 per entity |
+| `notebooks/03_entity_extraction.ipynb` | Scores (97% test F1), error analysis, and amenity check |
+| `tests/test_week3.py` | Extractor tests plus the 85% F1 target check |
 
 ## Taxonomy categories
 

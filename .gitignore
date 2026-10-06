@@ -6,6 +6,9 @@ data/processed/*
 !data/*/.gitkeep
 !data/processed/taxonomy.json
 !data/processed/sample_queries.csv
+!data/processed/entity_labels.csv
+!data/processed/entity_label_remarks.csv
+!data/processed/amenity_spot_check.csv
 
 # Clutter
 *.bak

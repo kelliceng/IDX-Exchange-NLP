@@ -1,0 +1,403 @@
+listing_id,split,label,start,end,span_text,value
+1146484433,dev,bedrooms,79,88,3 bedroom,3.0
+1146484433,dev,bathrooms,90,100,2 bathroom,2.0
+1174154323,dev,sqft,397,413,3000 square feet,3000.0
+1169805973,dev,bedrooms,38,47,2-bedroom,2.0
+1169805973,dev,bathrooms,49,59,1-bathroom,1.0
+1177750073,dev,sqft,271,287,4400 square feet,4400.0
+1156603849,dev,sqft,124,140,1800 square feet,1800.0
+1156603849,dev,bedrooms,179,189,3 bedrooms,3.0
+1156603849,dev,bathrooms,194,205,2 bathrooms,2.0
+1155176620,dev,bedrooms,20,29,4 bedroom,4.0
+1155176620,dev,bathrooms,31,37,2 bath,2.0
+1176761593,dev,bedrooms,315,325,5 bedrooms,5.0
+1176761593,dev,bathrooms,327,336,3.5 baths,3.5
+1176761593,dev,sqft,356,372,2831 square feet,2831.0
+1157017266,dev,bedrooms,899,909,5 bedrooms,5.0
+1157017266,dev,bathrooms,914,927,4.5 bathrooms,4.5
+1170326695,dev,sqft,208,224,2474 square feet,2474.0
+1170326695,dev,bedrooms,237,247,3 bedrooms,3.0
+1170326695,dev,bathrooms,249,262,2.5 bathrooms,2.5
+1178571200,dev,bedrooms,199,218,4 spacious bedrooms,4.0
+1178571200,dev,bathrooms,995,1007,3 full baths,3.0
+1093832772,dev,bedrooms,310,329,3 spacious bedrooms,3.0
+1176904012,dev,bedrooms,42,52,5 bedrooms,5.0
+1176904012,dev,bathrooms,54,63,2.5 baths,2.5
+1168832645,dev,bedrooms,20,29,4 bedroom,4.0
+1168832645,dev,bathrooms,31,41,2 bathroom,2.0
+1169303994,dev,bedrooms,121,131,4 bedrooms,4.0
+1169303994,dev,bathrooms,133,149,3 full bathrooms,3.0
+1169303994,dev,sqft,155,171,2574 square feet,2574.0
+1189683445,dev,bedrooms,124,134,4 bedrooms,4.0
+1189683445,dev,bathrooms,136,147,3 bathrooms,3.0
+1189683445,dev,sqft,167,183,1892 square feet,1892.0
+1190423612,dev,bedrooms,225,235,5 bedrooms,5.0
+1190423612,dev,bathrooms,237,250,5.5 bathrooms,5.5
+1190423612,dev,sqft,270,286,5532 square feet,5532.0
+1189562567,dev,bedrooms,439,448,4-bedroom,4.0
+1189562567,dev,bathrooms,450,460,2-bathroom,2.0
+1191031118,dev,sqft,122,138,2159 square feet,2159.0
+1191031118,dev,bedrooms,140,150,3 bedrooms,3.0
+1158547671,dev,bedrooms,165,174,2 bedroom,2.0
+1158547671,dev,bathrooms,175,181,2 bath,2.0
+1175467790,dev,bedrooms,204,214,4 bedrooms,4.0
+1190439420,dev,sqft,563,579,3900 square feet,3900.0
+1189755123,dev,bedrooms,49,58,4-bedroom,4.0
+1189755123,dev,bathrooms,60,73,1.75-bathroom,1.75
+1176161694,dev,bedrooms,475,484,4-bedroom,4.0
+1176161694,dev,bathrooms,499,527,2 recently updated bathrooms,2.0
+1184675435,dev,bedrooms,576,598,3 ample sized bedrooms,3.0
+1184675435,dev,bathrooms,603,624,2 remodeled bathrooms,2.0
+1189223334,dev,sqft,169,185,1800 square feet,1800.0
+1189223334,dev,bedrooms,208,218,3 bedrooms,3.0
+1189223334,dev,bathrooms,220,227,2 baths,2.0
+1173659521,dev,bedrooms,269,278,3-bedroom,3.0
+1173659521,dev,bathrooms,280,286,2-bath,2.0
+1173333681,dev,bedrooms,157,166,3-bedroom,3.0
+1173333681,dev,bathrooms,168,174,3-bath,3.0
+1173333681,dev,sqft,196,212,1600 square feet,1600.0
+1172355073,dev,sqft,109,125,2362 square feet,2362.0
+1172355073,dev,bedrooms,162,172,4 bedrooms,4.0
+1172355073,dev,bathrooms,195,206,3 bathrooms,3.0
+1174608765,dev,bedrooms,141,151,4 bedrooms,4.0
+1174608765,dev,bathrooms,156,165,3.5 baths,3.5
+1139655394,dev,bedrooms,543,570,4 generously sized bedrooms,4.0
+1139655394,dev,bathrooms,807,833,3 well-appointed bathrooms,3.0
+1176676227,dev,bedrooms,115,124,4-bedroom,4.0
+1176676227,dev,bathrooms,126,134,2.5-bath,2.5
+1176676227,dev,sqft,186,202,2700 square feet,2700.0
+1059556114,dev,bedrooms,199,208,5 bedroom,5.0
+1059556114,dev,bathrooms,210,216,5 bath,5.0
+1170443995,dev,bedrooms,36,45,4-bedroom,4.0
+1170443995,dev,bathrooms,47,57,2-bathroom,2.0
+1156588091,dev,sqft,123,139,2656 square feet,2656.0
+1156588091,dev,bedrooms,607,626,3 en suite bedrooms,3.0
+1151204965,dev,sqft,103,119,1415 square feet,1415.0
+1151204965,dev,bedrooms,120,130,3 bedrooms,3.0
+1151204965,dev,bathrooms,132,143,2 bathrooms,2.0
+1176761095,dev,bedrooms,225,235,3 bedrooms,3.0
+1176761095,dev,bathrooms,240,251,2 bathrooms,2.0
+1176324617,dev,bedrooms,493,512,3 spacious bedrooms,3.0
+1176979624,dev,bedrooms,86,95,3-bedroom,3.0
+1176979624,dev,bathrooms,97,103,2-bath,2.0
+1172903720,dev,bedrooms,106,115,6-bedroom,6.0
+1172903720,dev,bathrooms,117,127,4-bathroom,4.0
+1189439775,dev,bedrooms,204,223,4 spacious bedrooms,4.0
+1159899537,dev,sqft,324,340,1450 square feet,1450.0
+1159158816,dev,bedrooms,113,122,2-bedroom,2.0
+1159158816,dev,bathrooms,124,130,2-bath,2.0
+1172262996,dev,bedrooms,872,882,4 bedrooms,4.0
+1172262996,dev,bathrooms,887,907,4 spa-like bathrooms,4.0
+1176509618,dev,bedrooms,387,409,2 comfortable bedrooms,2.0
+1189753790,dev,bedrooms,77,86,3-bedroom,3.0
+1189753790,dev,bathrooms,88,96,1.5-bath,1.5
+1179132182,dev,bedrooms,108,117,1 bedroom,1.0
+1179132182,dev,bathrooms,119,125,1 bath,1.0
+1179132182,dev,sqft,127,142,600 square feet,600.0
+1176714696,dev,bedrooms,54,63,2-bedroom,2.0
+1176714696,dev,bathrooms,65,71,2-bath,2.0
+1176714696,dev,sqft,192,207,960 square feet,960.0
+1170116090,dev,bedrooms,5,14,4-bedroom,4.0
+1170116090,dev,bathrooms,16,22,2-bath,2.0
+1170116090,dev,sqft,37,53,1174 square feet,1174.0
+1159103096,dev,bedrooms,203,212,3-bedroom,3.0
+1159103096,dev,bathrooms,214,220,3-bath,3.0
+1177084844,dev,bedrooms,137,146,4-bedroom,4.0
+1177084844,dev,bathrooms,148,154,2-bath,2.0
+1159875388,dev,sqft,62,78,3276 square feet,3276.0
+1159875388,dev,bedrooms,81,90,5 bedroom,5.0
+1159875388,dev,bathrooms,92,98,3 bath,3.0
+1125634073,dev,bedrooms,341,350,3-bedroom,3.0
+1125634073,dev,bathrooms,352,362,3-bathroom,3.0
+1125634073,dev,sqft,375,391,2409 square feet,2409.0
+1179105175,dev,sqft,272,288,3600 square feet,3600.0
+1179105175,dev,bedrooms,313,323,4 bedrooms,4.0
+1179105175,dev,bathrooms,328,341,4.5 bathrooms,4.5
+1183545855,dev,bedrooms,119,128,3-bedroom,3.0
+1183545855,dev,bathrooms,130,138,2.5-bath,2.5
+1183545855,dev,sqft,157,173,1400 square feet,1400.0
+1183438594,dev,sqft,5,21,2259 square feet,2259.0
+1179298372,dev,bedrooms,38,47,2-bedroom,2.0
+1179298372,dev,bathrooms,49,59,2-bathroom,2.0
+1189858785,dev,bedrooms,28,37,4-bedroom,4.0
+1189858785,dev,bathrooms,39,45,3-bath,3.0
+1189858785,dev,sqft,74,90,2028 square feet,2028.0
+1190861521,dev,bedrooms,720,729,4 bedroom,4.0
+1190861521,dev,bathrooms,730,738,1.5 bath,1.5
+1157512642,dev,sqft,122,138,2095 square feet,2095.0
+1157512642,dev,bedrooms,258,267,3-bedroom,3.0
+1157512642,dev,bathrooms,268,274,2 bath,2.0
+1169558247,dev,bathrooms,1539,1585,Two beautifully updated spa-inspired bathrooms,2.0
+1189331158,dev,bedrooms,308,317,5-bedroom,5.0
+1189331158,dev,bathrooms,319,329,4-bathroom,4.0
+1152815426,dev,bedrooms,881,908,4 generously sized bedrooms,4.0
+1154528068,dev,bedrooms,132,142,3 Bedrooms,3.0
+1154528068,dev,bathrooms,143,154,2 Bathrooms,2.0
+1154528068,dev,sqft,158,174,1136 square feet,1136.0
+1183019069,dev,bedrooms,56,65,2-bedroom,2.0
+1183019069,dev,bathrooms,67,75,2.5-bath,2.5
+1157808989,dev,sqft,280,296,3605 square feet,3605.0
+1157808989,dev,bedrooms,328,343,3 large bedroom,3.0
+1157808989,dev,bathrooms,348,363,2 full bathroom,2.0
+1156818177,dev,sqft,110,126,2600 square feet,2600.0
+1178003457,dev,bedrooms,104,114,5 bedrooms,5.0
+1178003457,dev,bathrooms,116,129,4.5 bathrooms,4.5
+1183452763,dev,sqft,121,131,"2,393 soft",2393.0
+1183452763,dev,bedrooms,183,193,4- bedroom,4.0
+1183452763,dev,bathrooms,195,203,3- baths,3.0
+1172007152,dev,bedrooms,367,376,2 bedroom,2.0
+1172007152,dev,bathrooms,378,388,2 bathroom,2.0
+1177249916,dev,sqft,144,160,1176 square feet,1176.0
+1176084179,dev,sqft,149,165,3300 square feet,3300.0
+1183762367,dev,bedrooms,182,191,6-bedroom,6.0
+1183762367,dev,bathrooms,193,203,3-bathroom,3.0
+1183762367,dev,sqft,235,251,2972 square feet,2972.0
+1177529576,dev,bedrooms,131,141,4 bedrooms,4.0
+1177529576,dev,bathrooms,143,154,5 bathrooms,5.0
+1177529576,dev,sqft,160,176,3203 square feet,3203.0
+1179152665,dev,bedrooms,531,550,4 spacious bedrooms,4.0
+1183727284,dev,bedrooms,43,53,4 bedrooms,4.0
+1183727284,dev,bathrooms,55,68,4.5 bathrooms,4.5
+1183727284,dev,sqft,81,97,3900 square feet,3900.0
+1153267517,dev,price,117,125,$1278000,1278000.0
+1153267517,dev,sqft,137,153,1751 square feet,1751.0
+1190926128,dev,sqft,188,204,1687 square feet,1687.0
+1190926128,dev,bedrooms,210,220,2 bedrooms,2.0
+1189697724,test,sqft,165,181,2716 square feet,2716.0
+1174178315,test,bedrooms,135,144,4 bedroom,4.0
+1174178315,test,bathrooms,147,159,2.5 bathroom,2.5
+1174178315,test,sqft,183,199,2436 square feet,2436.0
+1169155407,test,bedrooms,0,10,4 bed room,4.0
+1169155407,test,bathrooms,11,17,2 bath,2.0
+1169155407,test,sqft,286,302,2103 square feet,2103.0
+1177745145,test,bedrooms,57,62,3-bed,3.0
+1177745145,test,bathrooms,63,71,2.5 bath,2.5
+1177745145,test,sqft,117,133,1494 square feet,1494.0
+1190137181,test,bedrooms,392,402,3 bedrooms,3.0
+1190137181,test,bathrooms,404,415,2 bathrooms,2.0
+1190137181,test,sqft,431,447,1600 square feet,1600.0
+1176206791,test,bedrooms,185,194,3-bedroom,3.0
+1173052207,test,sqft,669,685,1690 square feet,1690.0
+1173052207,test,bedrooms,730,739,3-bedroom,3.0
+1173052207,test,bathrooms,741,749,3.5-bath,3.5
+1190250017,test,bedrooms,77,86,1-bedroom,1.0
+1176593628,test,bedrooms,107,116,4-bedroom,4.0
+1176593628,test,bathrooms,118,128,3-bathroom,3.0
+1176593628,test,sqft,155,171,3031 square feet,3031.0
+1188184609,test,bedrooms,17,26,2 bedroom,2.0
+1188184609,test,bathrooms,28,34,2 bath,2.0
+1178121932,test,bedrooms,77,87,4 bedrooms,4.0
+1178121932,test,bathrooms,92,108,2 full bathrooms,2.0
+1138325265,test,bedrooms,1370,1389,5 en-suite bedrooms,5.0
+1170711625,test,bedrooms,827,846,4 upstairs bedrooms,4.0
+1178007429,test,bedrooms,10,19,3-bedroom,3.0
+1178007429,test,bathrooms,21,31,2-bathroom,2.0
+1185698254,test,bedrooms,315,320,3 bed,3.0
+1185698254,test,bathrooms,321,327,2 bath,2.0
+1190948745,test,bedrooms,99,104,2 bed,2.0
+1190948745,test,bathrooms,106,112,1 bath,1.0
+1176905584,test,price,41,48,$460000,460000.0
+1176905584,test,bedrooms,204,213,3-bedroom,3.0
+1176905584,test,bathrooms,215,225,2-bathroom,2.0
+1178118316,test,sqft,273,289,2200 square feet,2200.0
+1190063159,test,bedrooms,226,236,4 bedrooms,4.0
+1190063159,test,bathrooms,238,275,2 full bathrooms and 2 half bathrooms,3.0
+1190063159,test,sqft,331,347,2819 square feet,2819.0
+1174651951,test,price,40,47,$724900,724900.0
+1177666601,test,sqft,111,127,1070 square feet,1070.0
+1177666601,test,bathrooms,179,203,two and 1-half bathrooms,2.5
+1146111620,test,bedrooms,26,35,4-bedroom,4.0
+1146111620,test,bathrooms,37,43,2-bath,2.0
+1146111620,test,sqft,146,162,1769 square feet,1769.0
+1153094861,test,bedrooms,176,185,2-bedroom,2.0
+1153094861,test,bathrooms,228,234,2-bath,2.0
+1177894057,test,bedrooms,187,197,4 bedrooms,4.0
+1177894057,test,bathrooms,199,210,3 bathrooms,3.0
+1181829352,test,bedrooms,119,128,3-bedroom,3.0
+1181829352,test,bathrooms,130,136,2-bath,2.0
+1178479131,test,bedrooms,297,307,3 bedrooms,3.0
+1178479131,test,bathrooms,309,320,2 bathrooms,2.0
+1159536808,test,bedrooms,115,124,2 bedroom,2.0
+1159536808,test,bathrooms,126,132,2 bath,2.0
+1191063176,test,bedrooms,36,45,2-bedroom,2.0
+1191063176,test,bathrooms,47,53,2-bath,2.0
+1190923252,test,bedrooms,66,75,4-bedroom,4.0
+1189488884,test,bedrooms,128,137,3 bedroom,3.0
+1189488884,test,bathrooms,139,149,2 bathroom,2.0
+1157600267,test,bedrooms,432,442,2 bedrooms,2.0
+1157600267,test,bathrooms,444,455,3 bathrooms,3.0
+1190275045,test,sqft,85,101,2581 square feet,2581.0
+1190275045,test,bedrooms,119,129,4 bedrooms,4.0
+1190275045,test,bathrooms,135,144,3.5 baths,3.5
+1176073019,test,bedrooms,208,217,4-bedroom,4.0
+1176073019,test,bathrooms,219,229,4-bathroom,4.0
+1178803574,test,bedrooms,8,13,4 Bed,4.0
+1178803574,test,bathrooms,14,20,3 Bath,3.0
+1178803574,test,sqft,21,37,2358 square feet,2358.0
+1180840799,test,bedrooms,20,29,3 Bedroom,3.0
+1180840799,test,bathrooms,30,36,2 Bath,2.0
+1180840799,test,sqft,78,94,1686 square feet,1686.0
+1172075430,test,bedrooms,91,100,4-bedroom,4.0
+1172075430,test,bathrooms,102,112,3-bathroom,3.0
+1172075430,test,sqft,132,148,2297 square feet,2297.0
+1179285740,test,bedrooms,222,231,3-bedroom,3.0
+1179285740,test,bathrooms,250,256,2-bath,2.0
+1184964786,test,bedrooms,285,295,3 bedrooms,3.0
+1184964786,test,bathrooms,297,308,3 bathrooms,3.0
+1184964786,test,sqft,332,348,1790 square feet,1790.0
+1175111387,test,bedrooms,1401,1411,7 bedrooms,7.0
+1175111387,test,bathrooms,1413,1424,5 bathrooms,5.0
+1170034263,test,bedrooms,85,104,2 spacious bedrooms,2.0
+1170034263,test,bathrooms,106,122,2 full bathrooms,2.0
+1179699894,test,bedrooms,70,79,2-bedroom,2.0
+1179699894,test,bathrooms,80,86,1-bath,1.0
+1183446182,test,bedrooms,125,134,3 bedroom,3.0
+1183446182,test,bathrooms,136,142,2 bath,2.0
+1182255933,test,bedrooms,1586,1596,3 bedrooms,3.0
+1182255933,test,bathrooms,1601,1614,2.5 bathrooms,2.5
+1169544593,test,bedrooms,66,75,3 bedroom,3.0
+1169544593,test,bathrooms,77,83,2 bath,2.0
+1177093348,test,bedrooms,31,41,5 bedrooms,5.0
+1177093348,test,bathrooms,46,62,3 full bathrooms,3.0
+1177093348,test,sqft,564,580,1414 square feet,1414.0
+1190185613,test,bedrooms,20,29,4 bedroom,4.0
+1189692180,test,sqft,158,174,3200 square feet,3200.0
+1189692180,test,bedrooms,302,312,4 bedrooms,4.0
+1189692180,test,bathrooms,314,325,6 bathrooms,6.0
+1176799190,test,bedrooms,119,129,4 bedrooms,4.0
+1176799190,test,bathrooms,131,144,3.5 bathrooms,3.5
+1176799190,test,sqft,146,162,2738 square feet,2738.0
+1183693230,test,bedrooms,169,179,3 bedrooms,3.0
+1183693230,test,bathrooms,181,192,2 bathrooms,2.0
+1175025545,test,bedrooms,37,46,3-bedroom,3.0
+1175025545,test,bathrooms,48,58,2-bathroom,2.0
+1175025545,test,sqft,73,89,1242 square feet,1242.0
+1189482876,test,bedrooms,103,112,3-bedroom,3.0
+1189482876,test,bathrooms,114,124,1-bathroom,1.0
+1190422857,test,bedrooms,430,440,3 bedrooms,3.0
+1190422857,test,bathrooms,452,458,1 bath,1.0
+1158799998,test,bedrooms,43,53,3 bedrooms,3.0
+1158799998,test,bathrooms,73,86,2.5 bathrooms,2.5
+1129984311,test,bedrooms,683,693,4 bedrooms,4.0
+1177295887,test,bathrooms,371,406,two thoughtfully laid-out bathrooms,2.0
+1190551154,test,bedrooms,97,106,5 bedroom,5.0
+1190551154,test,bathrooms,107,113,3 bath,3.0
+1181880963,test,bedrooms,96,105,3-bedroom,3.0
+1181880963,test,bathrooms,107,117,2-bathroom,2.0
+1188168204,test,bathrooms,310,334,2 full updated bathrooms,2.0
+1138135483,test,sqft,118,134,9000 square feet,9000.0
+1138135483,test,bedrooms,234,243,8 bedroom,8.0
+1138135483,test,bathrooms,245,251,9 bath,9.0
+1189179330,test,bedrooms,382,391,3-bedroom,3.0
+1189179330,test,bathrooms,393,409,2 full Bathrooms,2.0
+1189179330,test,sqft,452,468,2197 square feet,2197.0
+1179220740,test,bedrooms,712,722,4 bedrooms,4.0
+1179220740,test,bathrooms,724,735,2 bathrooms,2.0
+1179220740,test,sqft,751,767,1581 square feet,1581.0
+1184988466,test,bedrooms,102,111,1-bedroom,1.0
+1184988466,test,bathrooms,113,123,1-bathroom,1.0
+1177562944,test,sqft,105,121,2000 square feet,2000.0
+1159248641,test,bedrooms,54,63,3 bedroom,3.0
+1159248641,test,bathrooms,65,77,2.5 bathroom,2.5
+1189846329,test,sqft,41,57,1146 square feet,1146.0
+1189846329,test,bathrooms,228,260,1 beautifully appointed bathroom,1.0
+1176056730,test,bedrooms,50,59,4-bedroom,4.0
+1176056730,test,bathrooms,61,71,2-bathroom,2.0
+1176056730,test,sqft,160,176,1688 square feet,1688.0
+1152625352,test,bedrooms,925,952,4 generously sized bedrooms,4.0
+1190030012,test,bedrooms,126,136,5 bedrooms,5.0
+1190030012,test,bathrooms,228,240,2.5 bathroom,2.5
+1190030012,test,sqft,273,289,2294 square feet,2294.0
+1175336965,test,sqft,192,208,2619 square feet,2619.0
+1178604054,test,bedrooms,44,53,2-bedroom,2.0
+1178604054,test,bathrooms,55,61,2-bath,2.0
+1190033644,test,bedrooms,761,783,3 comfortable bedrooms,3.0
+1158409391,test,bedrooms,86,95,4 bedroom,4.0
+1158409391,test,bathrooms,97,107,4 bathroom,4.0
+1191045380,test,bedrooms,147,156,3-bedroom,3.0
+1191045380,test,bathrooms,158,164,3-bath,3.0
+1191045380,test,sqft,312,328,1900 square feet,1900.0
+1189299180,test,sqft,155,171,4046 square feet,4046.0
+1189299180,test,bedrooms,767,776,3 bedroom,3.0
+1189299180,test,bathrooms,777,789,2.5 bathroom,2.5
+1183664588,test,bedrooms,66,76,4 Bedrooms,4.0
+1183664588,test,bathrooms,81,94,2.5 Bathrooms,2.5
+1183664588,test,sqft,100,116,2226 square feet,2226.0
+1176979837,test,bedrooms,55,65,3 bedrooms,3.0
+1176979837,test,bathrooms,67,76,2.5 baths,2.5
+1176979837,test,sqft,82,98,1758 square feet,1758.0
+1178474162,test,bedrooms,14,24,4 bedrooms,4.0
+1178474162,test,bathrooms,26,37,2 bathrooms,2.0
+1177694525,test,bedrooms,213,222,3-bedroom,3.0
+1177694525,test,bathrooms,224,232,2.5-bath,2.5
+1177694525,test,sqft,250,266,1703 square feet,1703.0
+1174049379,test,sqft,255,271,3500 square feet,3500.0
+1174049379,test,bedrooms,284,294,3 bedrooms,3.0
+1174049379,test,bathrooms,299,312,3.5 bathrooms,3.5
+1176339846,test,bedrooms,693,703,4 bedrooms,4.0
+1176339846,test,bathrooms,708,719,3 bathrooms,3.0
+1177416890,test,bedrooms,68,77,4-bedroom,4.0
+1177416890,test,bathrooms,79,89,2-bathroom,2.0
+1173000902,test,bedrooms,156,165,2-bedroom,2.0
+1173000902,test,bathrooms,167,173,1-bath,1.0
+1177518499,test,bedrooms,171,180,4-bedroom,4.0
+1177518499,test,bathrooms,182,192,2-bathroom,2.0
+1177518499,test,sqft,217,233,1980 square feet,1980.0
+1175964755,test,bedrooms,25,30,4 bed,4.0
+1175964755,test,bathrooms,32,42,3 bathroom,3.0
+1175964755,test,sqft,49,65,1874 square feet,1874.0
+1114892586,test,bedrooms,79,88,4 bedroom,4.0
+1114892586,test,bathrooms,90,98,2.5 bath,2.5
+1190829932,test,sqft,94,110,1800 square feet,1800.0
+1190829932,test,bedrooms,132,142,3 bedrooms,3.0
+1190829932,test,bathrooms,147,158,2 bathrooms,2.0
+1177749891,test,bedrooms,73,82,3-bedroom,3.0
+1177749891,test,bathrooms,84,90,2-bath,2.0
+1177749891,test,sqft,134,150,1600 square feet,1600.0
+1190726395,test,sqft,186,202,2809 square feet,2809.0
+1190726395,test,bedrooms,377,396,3 spacious bedrooms,3.0
+1190726395,test,bathrooms,398,407,3.5 baths,3.5
+1158345101,test,bedrooms,282,292,3 bedrooms,3.0
+1158345101,test,bathrooms,297,308,3 bathrooms,3.0
+1169040595,test,bedrooms,41,46,2 bed,2.0
+1169040595,test,bathrooms,47,53,2 bath,2.0
+1177181956,test,bedrooms,149,159,2 bedrooms,2.0
+1177181956,test,bathrooms,161,168,2 baths,2.0
+1177181956,test,sqft,179,195,1000 square feet,1000.0
+1177731708,test,bedrooms,57,67,3 bedrooms,3.0
+1177731708,test,bathrooms,69,80,2 bathrooms,2.0
+1177731708,test,sqft,100,116,1152 square feet,1152.0
+1183442973,test,bedrooms,124,134,4 bedrooms,4.0
+1183442973,test,bathrooms,136,161,four-and-1-half bathrooms,4.5
+1183442973,test,sqft,181,197,3000 square feet,3000.0
+1175998845,test,bedrooms,38,42,3bed,3.0
+1175998845,test,bathrooms,43,48,2bath,2.0
+1175998845,test,sqft,209,225,1216 square feet,1216.0
+1154806996,test,bedrooms,104,113,3-bedroom,3.0
+1154806996,test,bathrooms,115,121,1-bath,1.0
+1177744409,test,sqft,285,301,2001 square feet,2001.0
+1177744409,test,bedrooms,408,417,5-bedroom,5.0
+1177744409,test,bathrooms,419,425,2-bath,2.0
+1179080347,test,bedrooms,166,176,4 bedrooms,4.0
+1179080347,test,bathrooms,178,191,4.5 bathrooms,4.5
+1189626913,test,bedrooms,70,80,3 bedrooms,3.0
+1178614092,test,sqft,226,242,1390 square feet,1390.0
+1178614092,test,bedrooms,628,644,2 large bedrooms,2.0
+1178614092,test,bathrooms,693,706,2.5 bathrooms,2.5
+1157768519,test,bedrooms,257,267,3 bedrooms,3.0
+1157768519,test,bathrooms,272,283,2 bathrooms,2.0
+1190694727,test,bedrooms,74,83,2-bedroom,2.0
+1190694727,test,bathrooms,85,95,1-bathroom,1.0
+1190694727,test,sqft,158,173,754 square feet,754.0
+1179947608,test,bedrooms,364,391,3 generously sized bedrooms,3.0
+1179947608,test,bathrooms,396,412,2 full bathrooms,2.0
+1172622985,test,bedrooms,90,99,4-bedroom,4.0
+1172622985,test,bathrooms,101,107,2-bath,2.0
+1174377867,test,bedrooms,486,505,3 spacious bedrooms,3.0
+1179391362,test,bedrooms,69,78,4 bedroom,4.0
+1179391362,test,bathrooms,83,93,3 bathroom,3.0
+1189983826,test,bedrooms,186,195,3-bedroom,3.0
+1189983826,test,bathrooms,197,203,2-bath,2.0
+1152925215,test,bedrooms,121,131,3 bedrooms,3.0
+1152925215,test,bathrooms,136,147,2 bathrooms,2.0
+1152925215,test,sqft,155,171,1093 square feet,1093.0
