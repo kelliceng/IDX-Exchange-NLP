@@ -1,6 +1,6 @@
 # IDX Exchange NLP: Real Estate Listing Intelligence
 
-NLP tools for California MLS listing data. Week 1 builds the real estate taxonomy and sample datasets, Week 2 cleans the text, and Week 3 extracts structured facts from it.
+NLP tools for California MLS listing data.
 
 ## Setup
 
@@ -16,28 +16,15 @@ NLP tools for California MLS listing data. Week 1 builds the real estate taxonom
    pip install -r requirements.txt
    ```
 
-## Week 1 workflow
+## Week 1: Domain Understanding + Taxonomy
+
+Builds the real estate taxonomy and sample datasets that later weeks build on.
 
 ```bash
 python scripts/data_loading.py       # 1,000 listing remarks -> data/processed/listing_sample.csv
 python scripts/taxonomy_builder.py   # n-gram candidates + data/processed/taxonomy.json
-pytest                               # validation tests
+pytest tests/test_week1.py
 ```
-
-Then open `notebooks/01_data_exploration.ipynb` for the analysis.
-
-## Week 2 and 3 workflow
-
-```bash
-python scripts/text_cleaning.py              # cleaned remarks -> data/processed/listing_sample_clean.csv
-python scripts/evaluate_entities.py dev      # entity extraction scores on the dev set
-python scripts/evaluate_entities.py test     # final scores on the held-out test set
-pytest                                       # all tests (Weeks 1-3)
-```
-
-Notebooks: `02_text_cleaning.ipynb` (profiling and before/after examples) and `03_entity_extraction.ipynb` (scores and error analysis).
-
-## Deliverables
 
 | File | What it is |
 |---|---|
@@ -46,17 +33,8 @@ Notebooks: `02_text_cleaning.ipynb` (profiling and before/after examples) and `0
 | `data/processed/sample_queries.csv` | 62 user queries labeled with 7 intents |
 | `notebooks/01_data_exploration.ipynb` | Remark patterns, common phrases, and taxonomy coverage |
 | `tests/test_week1.py` | Checks taxonomy size, data quality, query labels, and 30%+ coverage |
-| `scripts/text_cleaning.py` | Week 2 `TextCleaner` with 9 cleaning steps, a 49-entry abbreviation dictionary, and column profiling |
-| `notebooks/02_text_cleaning.ipynb` | Profiling report and before/after examples |
-| `tests/test_week2.py` | 70+ cleaning test cases |
-| `scripts/entity_extractor.py` | Week 3 `EntityExtractor` for bedrooms, bathrooms, square feet, price, and amenities |
-| `data/processed/entity_labels.csv` | 250 hand-labeled remarks (100 dev, 150 test) with entity spans |
-| `docs/entity_labeling_guidelines.md` | Rules used for labeling |
-| `scripts/evaluate_entities.py` | Precision, recall, and F1 per entity |
-| `notebooks/03_entity_extraction.ipynb` | Scores (97% test F1), error analysis, and amenity check |
-| `tests/test_week3.py` | Extractor tests plus the 85% F1 target check |
 
-## Taxonomy categories
+### Taxonomy categories
 
 | Category | Examples |
 |---|---|
@@ -69,9 +47,44 @@ Notebooks: `02_text_cleaning.ipynb` (profiling and before/after examples) and `0
 | `location_views` | ocean view, walking distance, top-rated schools |
 | `condition_sale` | move-in ready, fixer-upper, short sale, rental income |
 
-## Query intents
+### Query intents
 
 `search_listings`, `property_details`, `pricing_valuation`, `compare_listings`, `neighborhood_info`, `schedule_showing`, `financing_costs`
+
+## Week 2: Text Cleaning & Normalization
+
+Standardizes remarks and queries (abbreviations, prices, square footage, special characters, ALL CAPS) so later steps see consistent text.
+
+```bash
+python scripts/text_cleaning.py      # cleaned remarks -> data/processed/listing_sample_clean.csv
+pytest tests/test_week2.py
+```
+
+| File | What it is |
+|---|---|
+| `scripts/text_cleaning.py` | `TextCleaner` with 9 cleaning steps, a 49-entry abbreviation dictionary, and column profiling |
+| `data/processed/listing_sample_clean.csv` | Cleaned remarks (local only, not committed) |
+| `notebooks/02_text_cleaning.ipynb` | Profiling report and before/after examples |
+| `tests/test_week2.py` | 70+ cleaning test cases |
+
+## Week 3: Named Entity Extraction
+
+Pulls bedrooms, bathrooms, square footage, price, and amenities out of cleaned remarks.
+
+```bash
+python scripts/evaluate_entities.py dev    # scores on the dev set (used while writing rules)
+python scripts/evaluate_entities.py test   # final scores on the held-out test set
+pytest tests/test_week3.py
+```
+
+| File | What it is |
+|---|---|
+| `scripts/entity_extractor.py` | `EntityExtractor` with regex rules and taxonomy-based amenity detection |
+| `data/processed/entity_labels.csv` | 250 hand-labeled remarks (100 dev, 150 test) with entity spans |
+| `docs/entity_labeling_guidelines.md` | Rules used for labeling |
+| `scripts/evaluate_entities.py` | Precision, recall, and F1 per entity |
+| `notebooks/03_entity_extraction.ipynb` | Scores (97% test F1), error analysis, and amenity check |
+| `tests/test_week3.py` | Extractor tests plus the 85% F1 target check |
 
 ## Data policy
 
