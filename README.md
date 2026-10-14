@@ -1,109 +1,67 @@
-# IDX Exchange NLP: Real Estate Listing Intelligence
+# IDX Exchange NLP
 
-NLP tools for California MLS listing data.
+NLP project for California MLS listing data. The goal is to understand listing descriptions and turn plain-English home searches into database queries.
+
+## Project structure
+
+```
+data/
+  raw/          SQL dumps (not in repo)
+  processed/    taxonomy, sample queries, and labels
+  schema.json   database columns, valid cities, and property types
+docs/           labeling guidelines
+notebooks/      analysis for each week
+scripts/        project code
+tests/          tests for each week
+```
 
 ## Setup
 
-1. Install [Docker Desktop](https://www.docker.com/products/docker-desktop/) and give it at least 4 GB of RAM.
-2. Put the SQL dumps (`rets_property.sql` and others) in `data/raw/`. They are not in this repo.
-3. Start MySQL. The first start imports the dumps, which takes several minutes.
+1. Install Docker Desktop and give it at least 4 GB of memory.
+2. Put the SQL dumps in `data/raw/`.
+3. Start MySQL. The first run imports the data and takes a while.
    ```bash
    docker-compose up -d
-   docker-compose logs -f mysql   # wait for "ready for connections"
    ```
-4. Install Python packages.
+4. Install the Python packages.
    ```bash
    pip install -r requirements.txt
    ```
+5. Pull the listing sample.
+   ```bash
+   python scripts/data_loading.py
+   ```
 
-## Week 1: Domain Understanding + Taxonomy
+## Weekly work
 
-Builds the real estate taxonomy and sample datasets that later weeks build on.
+### Week 1: Taxonomy
+Real estate terms grouped into 8 categories, plus sample user queries.
+- `scripts/taxonomy_builder.py`
+- `notebooks/01_data_exploration.ipynb`
 
-```bash
-python scripts/data_loading.py       # 1,000 listing remarks -> data/processed/listing_sample.csv
-python scripts/taxonomy_builder.py   # n-gram candidates + data/processed/taxonomy.json
-pytest tests/test_week1.py
-```
+### Week 2: Text cleaning
+Standardizes listing text (abbreviations, prices, square footage, special characters).
+- `scripts/text_cleaning.py`
+- `notebooks/02_text_cleaning.ipynb`
 
-| File | What it is |
-|---|---|
-| `data/processed/taxonomy.json` | 261 real estate terms across 8 categories, each with an ID, synonyms, and sample frequency |
-| `data/processed/listing_sample.csv` | 1,000 listing remarks (local only, not committed) |
-| `data/processed/sample_queries.csv` | 62 user queries labeled with 7 intents |
-| `notebooks/01_data_exploration.ipynb` | Remark patterns, common phrases, and taxonomy coverage |
-| `tests/test_week1.py` | Checks taxonomy size, data quality, query labels, and 30%+ coverage |
+### Week 3: Entity extraction
+Pulls bedrooms, bathrooms, square footage, price, and amenities from listing descriptions.
+- `scripts/entity_extractor.py`
+- `scripts/evaluate_entities.py`
+- `notebooks/03_entity_extraction.ipynb`
 
-### Taxonomy categories
+### Week 4: Query parser
+Turns searches like "3 bed under 700k in Irvine" into filters and a safe SQL query.
+- `scripts/query_parser.py`
+- `scripts/run_query.py`
+- `notebooks/04_query_parser.ipynb`
 
-| Category | Examples |
-|---|---|
-| `property_type` | condo, townhouse, duplex, manufactured home |
-| `architectural_style` | craftsman, mid-century modern, spanish style |
-| `rooms_layout` | primary suite, bonus room, ADU, open floor plan |
-| `interior_systems` | quartz countertops, vaulted ceilings, solar panels |
-| `exterior_lot` | pool, 2-car garage, RV parking, corner lot |
-| `community_amenities` | HOA, gated community, clubhouse, Mello-Roos |
-| `location_views` | ocean view, walking distance, top-rated schools |
-| `condition_sale` | move-in ready, fixer-upper, short sale, rental income |
-
-### Query intents
-
-`search_listings`, `property_details`, `pricing_valuation`, `compare_listings`, `neighborhood_info`, `schedule_showing`, `financing_costs`
-
-## Week 2: Text Cleaning & Normalization
-
-Standardizes remarks and queries (abbreviations, prices, square footage, special characters, ALL CAPS) so later steps see consistent text.
+## Running tests
 
 ```bash
-python scripts/text_cleaning.py      # cleaned remarks -> data/processed/listing_sample_clean.csv
-pytest tests/test_week2.py
+pytest
 ```
 
-| File | What it is |
-|---|---|
-| `scripts/text_cleaning.py` | `TextCleaner` with 9 cleaning steps, a 49-entry abbreviation dictionary, and column profiling |
-| `data/processed/listing_sample_clean.csv` | Cleaned remarks (local only, not committed) |
-| `notebooks/02_text_cleaning.ipynb` | Profiling report and before/after examples |
-| `tests/test_week2.py` | 70+ cleaning test cases |
+## Data
 
-## Week 3: Named Entity Extraction
-
-Pulls bedrooms, bathrooms, square footage, price, and amenities out of cleaned remarks.
-
-```bash
-python scripts/evaluate_entities.py dev    # scores on the dev set (used while writing rules)
-python scripts/evaluate_entities.py test   # final scores on the held-out test set
-pytest tests/test_week3.py
-```
-
-| File | What it is |
-|---|---|
-| `scripts/entity_extractor.py` | `EntityExtractor` with regex rules and taxonomy-based amenity detection |
-| `data/processed/entity_labels.csv` | 250 hand-labeled remarks (100 dev, 150 test) with entity spans |
-| `docs/entity_labeling_guidelines.md` | Rules used for labeling |
-| `scripts/evaluate_entities.py` | Precision, recall, and F1 per entity |
-| `notebooks/03_entity_extraction.ipynb` | Scores (97% test F1), error analysis, and amenity check |
-| `tests/test_week3.py` | Extractor tests plus the 85% F1 target check |
-
-## Week 4: Query Parser to SQL
-
-Turns plain-English searches like "3 bed under 700k in Irvine" into filters, checks them against the real data, and builds a safe parameterized SQL query.
-
-```bash
-python scripts/run_query.py "3 bed condo under 700k in Irvine with a pool"   # try a search on MySQL
-python scripts/build_schema.py                                              # refresh data/schema.json from MySQL
-pytest tests/test_week4.py
-```
-
-| File | What it is |
-|---|---|
-| `scripts/query_parser.py` | `QueryParser` (20+ patterns, parameterized SQL) and `SchemaValidator` |
-| `data/schema.json` | Filter-to-column mapping, valid ranges, and the 979 cities and 20 property types in the database |
-| `data/processed/sample_queries_parsed.json` | Correct filters for the 62 Week 1 sample queries |
-| `notebooks/04_query_parser.ipynb` | Examples, 98% accuracy on sample queries, validation, and SQL injection check |
-| `tests/test_week4.py` | 98 test cases, including SQL injection tests |
-
-## Data policy
-
-MLS data from the company server stays on your machine. `sql-files/`, `data/raw/`, and generated CSVs are in `.gitignore`.
+MLS data stays local and is not committed to this repo.
