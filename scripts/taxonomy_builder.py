@@ -227,7 +227,7 @@ TERMS = {
         "pickleball",
         "golf course|golf",
         "playground|tot lot",
-        "dog park|pet-friendly|pet friendly",
+        "dog park",
         "walking trails|hiking trails|biking trails|trails",
         "greenbelt|green belt|open space|community park",
         "picnic area|bbq area",
@@ -243,6 +243,7 @@ TERMS = {
         "marina|boat slip|boat dock",
         "equestrian|horse trails",
         "mello-roos|mello roos",
+        "pet-friendly|pet friendly|pets allowed",
     ],
     "location_views": [
         "ocean view|ocean-view",

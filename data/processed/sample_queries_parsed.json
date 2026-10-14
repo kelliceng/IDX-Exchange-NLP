@@ -1,0 +1,347 @@
+{
+ "Q001": {
+  "bedrooms": 3,
+  "property_type": [
+   "SingleFamilyResidence"
+  ],
+  "amenities": [
+   "pool"
+  ],
+  "city": [
+   "San Diego"
+  ],
+  "price_max": 1200000
+ },
+ "Q002": {
+  "property_type": [
+   "Condominium"
+  ],
+  "amenities": [
+   "near the beach",
+   "ocean view"
+  ],
+  "city": [
+   "Santa Monica"
+  ]
+ },
+ "Q003": {
+  "amenities": [
+   "single-story"
+  ],
+  "city": [
+   "Irvine"
+  ],
+  "exclude_amenities": [
+   "hoa"
+  ]
+ },
+ "Q004": {
+  "property_type": [
+   "Townhouse"
+  ],
+  "garage_spaces_min": 2,
+  "city": [
+   "San Jose"
+  ]
+ },
+ "Q005": {
+  "amenities": [
+   "move-in ready",
+   "backyard"
+  ],
+  "city": [
+   "Pasadena"
+  ]
+ },
+ "Q006": {
+  "amenities_any": [
+   "adu",
+   "guest house"
+  ],
+  "city": [
+   "Los Angeles"
+  ]
+ },
+ "Q007": {
+  "amenities": [
+   "fixer-upper"
+  ],
+  "price_max": 700000,
+  "city": [
+   "Sacramento"
+  ]
+ },
+ "Q008": {
+  "bedrooms": 4,
+  "bathrooms": 3,
+  "amenities": [
+   "home office",
+   "schools"
+  ],
+  "city": [
+   "Fremont"
+  ]
+ },
+ "Q009": {
+  "amenities": [
+   "pet-friendly",
+   "laundry room",
+   "downtown"
+  ],
+  "property_type": [
+   "Condominium"
+  ],
+  "city": [
+   "Los Angeles"
+  ]
+ },
+ "Q010": {
+  "amenities": [
+   "solar panels",
+   "ev charger"
+  ],
+  "city": [
+   "Riverside"
+  ]
+ },
+ "Q011": {
+  "amenities": [
+   "gated community",
+   "pool",
+   "tennis courts"
+  ],
+  "city": [
+   "Palm Desert"
+  ]
+ },
+ "Q012": {
+  "amenities": [
+   "mid-century modern",
+   "mountain view"
+  ],
+  "city": [
+   "Palm Springs"
+  ]
+ },
+ "Q013": {
+  "property_type": [
+   "Duplex",
+   "Triplex"
+  ],
+  "amenities": [
+   "rental income"
+  ],
+  "city": [
+   "Long Beach"
+  ]
+ },
+ "Q014": {
+  "amenities": [
+   "new construction"
+  ],
+  "price_max": 900000,
+  "city": [
+   "Temecula"
+  ]
+ },
+ "Q015": {
+  "amenities": [
+   "55+ community",
+   "golf course"
+  ],
+  "city": [
+   "Murrieta"
+  ]
+ },
+ "Q016": {
+  "amenities": [
+   "central air"
+  ]
+ },
+ "Q017": {},
+ "Q018": {
+  "amenities": [
+   "solar panels"
+  ]
+ },
+ "Q019": {},
+ "Q020": {},
+ "Q021": {
+  "property_type": [
+   "Condominium"
+  ],
+  "amenities": [
+   "parking"
+  ]
+ },
+ "Q022": {
+  "amenities": [
+   "backyard",
+   "fenced yard"
+  ]
+ },
+ "Q023": {
+  "amenities": [
+   "remodeled"
+  ]
+ },
+ "Q024": {},
+ "Q025": {},
+ "Q026": {},
+ "Q027": {
+  "city": [
+   "Irvine"
+  ]
+ },
+ "Q028": {
+  "city": [
+   "Pasadena"
+  ]
+ },
+ "Q029": {},
+ "Q030": {},
+ "Q031": {
+  "property_type": [
+   "Condominium"
+  ],
+  "city": [
+   "San Diego"
+  ]
+ },
+ "Q032": {
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "city": [
+   "Torrance"
+  ]
+ },
+ "Q033": {
+  "city": [
+   "Irvine"
+  ]
+ },
+ "Q034": {
+  "city": [
+   "Pasadena",
+   "Glendale"
+  ],
+  "property_type": [
+   "SingleFamilyResidence"
+  ]
+ },
+ "Q035": {},
+ "Q036": {
+  "amenities": [
+   "hoa"
+  ]
+ },
+ "Q037": {},
+ "Q038": {
+  "bedrooms": 2,
+  "property_type": [
+   "Condominium"
+  ]
+ },
+ "Q039": {},
+ "Q040": {
+  "amenities": [
+   "schools"
+  ]
+ },
+ "Q041": {
+  "city": [
+   "Irvine",
+   "Los Angeles"
+  ],
+  "amenities": [
+   "downtown"
+  ]
+ },
+ "Q042": {
+  "amenities": [
+   "walking distance"
+  ]
+ },
+ "Q043": {
+  "amenities": [
+   "restaurants",
+   "shopping"
+  ]
+ },
+ "Q044": {
+  "amenities": [
+   "quiet neighborhood"
+  ]
+ },
+ "Q045": {
+  "amenities": [
+   "parks"
+  ]
+ },
+ "Q046": {
+  "amenities": [
+   "public transportation"
+  ]
+ },
+ "Q047": {
+  "amenities": [
+   "hospitals"
+  ]
+ },
+ "Q048": {},
+ "Q049": {
+  "amenities": [
+   "open house"
+  ]
+ },
+ "Q050": {},
+ "Q051": {
+  "amenities": [
+   "virtual tour"
+  ]
+ },
+ "Q052": {
+  "amenities": [
+   "private showing"
+  ]
+ },
+ "Q053": {
+  "amenities": [
+   "open house"
+  ],
+  "city": [
+   "Irvine"
+  ]
+ },
+ "Q054": {},
+ "Q055": {
+  "amenities": [
+   "hoa"
+  ]
+ },
+ "Q056": {
+  "price_target": 850000
+ },
+ "Q057": {
+  "amenities": [
+   "mello-roos"
+  ]
+ },
+ "Q058": {},
+ "Q059": {
+  "amenities": [
+   "seller financing"
+  ]
+ },
+ "Q060": {
+  "amenities": [
+   "fha"
+  ]
+ },
+ "Q061": {
+  "amenities": [
+   "assumable loan"
+  ]
+ },
+ "Q062": {}
+}

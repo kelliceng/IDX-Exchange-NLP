@@ -1606,11 +1606,8 @@
       "id": "CA012",
       "term": "dog park",
       "category": "community_amenities",
-      "synonyms": [
-        "pet-friendly",
-        "pet friendly"
-      ],
-      "sample_count": 26
+      "synonyms": [],
+      "sample_count": 23
     },
     {
       "id": "CA013",
@@ -1752,6 +1749,16 @@
         "mello roos"
       ],
       "sample_count": 12
+    },
+    {
+      "id": "CA028",
+      "term": "pet-friendly",
+      "category": "community_amenities",
+      "synonyms": [
+        "pet friendly",
+        "pets allowed"
+      ],
+      "sample_count": 4
     },
     {
       "id": "LV001",

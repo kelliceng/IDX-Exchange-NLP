@@ -28,7 +28,7 @@ pytest tests/test_week1.py
 
 | File | What it is |
 |---|---|
-| `data/processed/taxonomy.json` | 260 real estate terms across 8 categories, each with an ID, synonyms, and sample frequency |
+| `data/processed/taxonomy.json` | 261 real estate terms across 8 categories, each with an ID, synonyms, and sample frequency |
 | `data/processed/listing_sample.csv` | 1,000 listing remarks (local only, not committed) |
 | `data/processed/sample_queries.csv` | 62 user queries labeled with 7 intents |
 | `notebooks/01_data_exploration.ipynb` | Remark patterns, common phrases, and taxonomy coverage |
@@ -85,6 +85,24 @@ pytest tests/test_week3.py
 | `scripts/evaluate_entities.py` | Precision, recall, and F1 per entity |
 | `notebooks/03_entity_extraction.ipynb` | Scores (97% test F1), error analysis, and amenity check |
 | `tests/test_week3.py` | Extractor tests plus the 85% F1 target check |
+
+## Week 4: Query Parser to SQL
+
+Turns plain-English searches like "3 bed under 700k in Irvine" into filters, checks them against the real data, and builds a safe parameterized SQL query.
+
+```bash
+python scripts/run_query.py "3 bed condo under 700k in Irvine with a pool"   # try a search on MySQL
+python scripts/build_schema.py                                              # refresh data/schema.json from MySQL
+pytest tests/test_week4.py
+```
+
+| File | What it is |
+|---|---|
+| `scripts/query_parser.py` | `QueryParser` (20+ patterns, parameterized SQL) and `SchemaValidator` |
+| `data/schema.json` | Filter-to-column mapping, valid ranges, and the 979 cities and 20 property types in the database |
+| `data/processed/sample_queries_parsed.json` | Correct filters for the 62 Week 1 sample queries |
+| `notebooks/04_query_parser.ipynb` | Examples, 98% accuracy on sample queries, validation, and SQL injection check |
+| `tests/test_week4.py` | 98 test cases, including SQL injection tests |
 
 ## Data policy
 
