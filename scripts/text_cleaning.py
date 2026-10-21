@@ -211,7 +211,7 @@ class TextCleaner:
         stop = {"the", "and", "a", "of", "to", "in", "with", "for", "is", "this", "on", "your", "an", "from"}
         counts = Counter()
         for t in text:
-            words = [w for w in re.findall(r"[a-z]+", t.lower())]
+            words = re.findall(r"[a-z]+", t.lower())
             counts.update(
                 " ".join(words[i:i + n]) for i in range(len(words) - n + 1)
                 if words[i] not in stop and words[i + n - 1] not in stop

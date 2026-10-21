@@ -26,7 +26,7 @@ import json
 import re
 from pathlib import Path
 
-from scripts.taxonomy_builder import load_taxonomy, normalize, variant_pattern
+from scripts.taxonomy_builder import compile_matchers, load_taxonomy, normalize
 from scripts.text_cleaning import TextCleaner
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -97,11 +97,9 @@ class QueryParser:
         schema = json.loads(Path(schema_path).read_text())
         self.cities = sorted(schema["cities"], key=len, reverse=True)  # longest first: "West Covina" before "Covina"
         taxonomy = taxonomy or load_taxonomy()
-        self.amenity_terms = [
-            (t, re.compile(variant_pattern_any(t), re.I))
-            for t in taxonomy["terms"]
-            if t["category"] != "property_type" and t["term"] not in NOT_AMENITIES
-        ]
+        amenities = [t for t in taxonomy["terms"]
+                     if t["category"] != "property_type" and t["term"] not in NOT_AMENITIES]
+        self.amenity_terms = compile_matchers({"terms": amenities})
         self.term_variants = {t["term"]: [t["term"]] + t["synonyms"] for t in taxonomy["terms"]}
 
     # ---------- parse ----------
@@ -363,11 +361,6 @@ class QueryParser:
         if exclude:
             return "(L_Remarks IS NULL OR (" + " AND ".join(["L_Remarks NOT LIKE %s"] * len(likes)) + "))", *likes
         return "(" + " OR ".join(["L_Remarks LIKE %s"] * len(likes)) + ")", *likes
-
-
-def variant_pattern_any(term):
-    """One regex matching a taxonomy term or any of its synonyms."""
-    return "|".join(variant_pattern(v) for v in [term["term"]] + term["synonyms"])
 
 
 class SchemaValidator:
