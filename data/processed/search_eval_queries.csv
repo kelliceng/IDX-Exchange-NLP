@@ -1,0 +1,11 @@
+query_id,query,style,relevant_if
+S01,quiet retreat surrounded by nature,descriptive,"Describes a quiet, private, or secluded setting with trees, mountains, or nature"
+S02,room for multigenerational living,descriptive,"Mentions multigenerational living, an ADU, guest house, in-law suite, or separate living quarters"
+S03,fixer upper with lots of potential,descriptive,"Says it needs work, TLC, or is a fixer or opportunity to renovate"
+S04,ocean view condo near the beach,descriptive,"A condo (or similar unit) with ocean views or very close to the beach"
+S05,dream kitchen for someone who loves to cook,descriptive,"Highlights a high-end or chef's kitchen (gourmet, chef, professional appliances, large island)"
+S06,great for entertaining with a pool and big backyard,descriptive,"Has a pool and a yard or outdoor area described as good for entertaining"
+S07,space to work from home,descriptive,"Mentions a home office, study, or a room described as usable for remote work"
+S08,horse property with acreage,keyword,"Horse or equestrian property, or land set up for horses"
+S09,RV parking,keyword,"Mentions RV parking or RV access"
+S10,energy efficient home with paid off solar,keyword,"Mentions owned or paid-off solar"

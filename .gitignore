@@ -7,6 +7,8 @@ data/processed/*
 !data/processed/taxonomy.json
 !data/processed/sample_queries.csv
 !data/processed/sample_queries_parsed.json
+!data/processed/search_eval_queries.csv
+!data/processed/search_relevance.csv
 !data/processed/entity_labels.csv
 !data/processed/entity_label_remarks.csv
 !data/processed/amenity_spot_check.csv

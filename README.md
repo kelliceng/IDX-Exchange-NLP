@@ -56,6 +56,17 @@ Turns searches like "3 bed under 700k in Irvine" into filters and a safe SQL que
 - `scripts/run_query.py`
 - `notebooks/04_query_parser.ipynb`
 
+### Week 5: Semantic search
+Finds listings by meaning instead of exact words, and compares it with keyword search.
+- `scripts/semantic_search.py`
+- `notebooks/05_semantic_search.ipynb`
+
+To build the search index (saved to `data/models/`, not in repo):
+```bash
+python scripts/data_loading.py --all
+python scripts/semantic_search.py
+```
+
 ## Running tests
 
 ```bash

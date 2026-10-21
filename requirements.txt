@@ -4,3 +4,6 @@ nltk
 matplotlib
 pytest
 jupyter
+sentence-transformers
+faiss-cpu
+rank-bm25
